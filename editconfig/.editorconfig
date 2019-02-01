@@ -11,7 +11,7 @@ indent_size = 4
 max_line_length = 120
 
 [*.xml]
-indent_size = 2
+indent_size = 4
 max_line_length = 120
 
 [*.{gradle,groovy}]
@@ -19,17 +19,17 @@ indent_size = 4
 max_line_length = 120
 
 [*.{html,js,css,scss}]
-indent_size = 2
+indent_size = 4
 
 [*.json]
-indent_size = 2
+indent_size = 4
 
 [*.{yml,yaml}]
-indent_size = 2
+indent_size = 4
 trim_trailing_whitespace = false
 
 [*.md]
 trim_trailing_whitespace = false
 
 [*.sql]
-indent_size = 2
+indent_size = 4
