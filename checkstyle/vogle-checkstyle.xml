@@ -4,7 +4,7 @@
         "https://checkstyle.org/dtds/configuration_1_3.dtd">
 
 <!--
-    ** checkstyle by vogle **
+    ** Checkstyle by vogle **
 
     Checkstyle is very configurable. Be sure to read the documentation at
     http://checkstyle.sourceforge.net/ (or in your downloaded distribution).
@@ -12,6 +12,7 @@
     To completely disable a check, just comment it out or delete it from the file.
 
     Authors: Allan Im
+    https://raw.githubusercontent.com/vogle/codestyle/master/checkstyle/vogle-checkstyle.xml
  -->
 
 <module name="Checker">
@@ -52,7 +53,6 @@
         </module>
         <module name="NeedBraces"/>
         <module name="LeftCurly"/>
-        <module name="RightCurly"/>
         <module name="RightCurly">
             <property name="option" value="alone"/>
             <property name="tokens"
@@ -163,7 +163,7 @@
             <property name="sortImportsInGroupAlphabetically" value="true"/>
             <property name="separateLineBetweenGroups" value="true"/>
             <property name="customImportOrderRules"
-                      value="STATIC###STANDARD_JAVA_PACKAGE###THIRD_PARTY_PACKAGE###SPECIAL_IMPORTS"/>
+                      value="SPECIAL_IMPORTS###THIRD_PARTY_PACKAGE###STANDARD_JAVA_PACKAGE###STATIC"/>
         </module>
         <module name="MethodParamPad"/>
         <module name="OperatorWrap">
