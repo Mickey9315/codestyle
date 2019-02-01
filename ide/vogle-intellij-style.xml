@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<code_scheme name="vogleStyle">
+<code_scheme name="vogle-style">
     <option name="JAVA_INDENT_OPTIONS">
         <value>
             <option name="INDENT_SIZE" value="4"/>
@@ -18,15 +18,15 @@
     <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="9999"/>
     <option name="IMPORT_LAYOUT_TABLE">
         <value>
-            <package name="" withSubpackages="true" static="true"/>
+            <package name="com.vogle" withSubpackages="true" static="false"/>
+            <emptyLine/>
+            <package name="" withSubpackages="true" static="false"/>
             <emptyLine/>
             <package name="java" withSubpackages="true" static="false"/>
             <emptyLine/>
             <package name="javax" withSubpackages="true" static="false"/>
             <emptyLine/>
-            <package name="" withSubpackages="true" static="false"/>
-            <emptyLine/>
-            <package name="com.vogle" withSubpackages="true" static="false"/>
+            <package name="" withSubpackages="true" static="true"/>
         </value>
     </option>
     <option name="RIGHT_MARGIN" value="120"/>
@@ -66,8 +66,8 @@
     <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false"/>
     <option name="LINE_COMMENT_ADD_SPACE" value="true"/>
     <ADDITIONAL_INDENT_OPTIONS fileType="css">
-        <option name="INDENT_SIZE" value="2"/>
-        <option name="CONTINUATION_INDENT_SIZE" value="4"/>
+        <option name="INDENT_SIZE" value="4"/>
+        <option name="CONTINUATION_INDENT_SIZE" value="8"/>
         <option name="TAB_SIZE" value="4"/>
         <option name="USE_TAB_CHARACTER" value="false"/>
         <option name="SMART_TABS" value="false"/>
@@ -86,8 +86,8 @@
         <option name="USE_RELATIVE_INDENTS" value="false"/>
     </ADDITIONAL_INDENT_OPTIONS>
     <ADDITIONAL_INDENT_OPTIONS fileType="js">
-        <option name="INDENT_SIZE" value="2"/>
-        <option name="CONTINUATION_INDENT_SIZE" value="2"/>
+        <option name="INDENT_SIZE" value="4"/>
+        <option name="CONTINUATION_INDENT_SIZE" value="8"/>
         <option name="TAB_SIZE" value="4"/>
         <option name="USE_TAB_CHARACTER" value="false"/>
         <option name="SMART_TABS" value="false"/>
@@ -106,7 +106,7 @@
         <option name="USE_RELATIVE_INDENTS" value="false"/>
     </ADDITIONAL_INDENT_OPTIONS>
     <ADDITIONAL_INDENT_OPTIONS fileType="sql">
-        <option name="INDENT_SIZE" value="2"/>
+        <option name="INDENT_SIZE" value="4"/>
         <option name="CONTINUATION_INDENT_SIZE" value="8"/>
         <option name="TAB_SIZE" value="4"/>
         <option name="USE_TAB_CHARACTER" value="false"/>
@@ -126,7 +126,7 @@
         <option name="USE_RELATIVE_INDENTS" value="false"/>
     </ADDITIONAL_INDENT_OPTIONS>
     <ADDITIONAL_INDENT_OPTIONS fileType="yml">
-        <option name="INDENT_SIZE" value="2"/>
+        <option name="INDENT_SIZE" value="4"/>
         <option name="CONTINUATION_INDENT_SIZE" value="8"/>
         <option name="TAB_SIZE" value="4"/>
         <option name="USE_TAB_CHARACTER" value="false"/>
